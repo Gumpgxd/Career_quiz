@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.test-main {
+    padding-top: 2rem;
+}
+
+.test-font {
+    padding: 0.1rem 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .suit_bottom {
+        width: 100% !important;
+    }
+    .suit_bottom {
+        width: 100% !important;
+    }
+    .suit {
+        width: 100% !important;
+        padding: 0.6rem 0 1.2rem!important;
+    }
+    .font_suit {
+        padding: 1.2rem 0!important;
+    }
+    .suit_bottom button {
+        height: 1rem!important;
+        width: 3rem!important;
+    }
+    .test-main {
+        padding-top: 4rem!important;
+    }
+}
+
+.test-font h1 {
+    font-size: 0.55rem;
+    color: #82a6f5;
+    font-style: italic;
+    margin: 0;
+    font-weight: 600;
+}
+
+.suit {
+    width: 75%;
+    margin: 0.3rem auto;
+    padding-top: 0.1rem;
+    /*padding-left: 0.4rem;*/
+    background: #f4f3f3;
+    border: 0px solid #dfdfdf;
+    border-radius: 0.3rem;
+    padding-bottom: 0.6rem;
+}
+
+.suit p {
+    font-size: 0.2rem;
+    font-weight: 600;
+    color: #797A7B;
+    margin-bottom: 0.4rem;
+}
+
+.font_suit {
+    width: 90%;
+    background: #ffffff;
+    padding: 0.7rem 0;
+    margin: 0 auto;
+}
+
+.font_suit p {
+    margin: 0;
+    text-align: center;
+}
+
+.suit_bottom {
+    padding: 0.3rem 0 0.2rem;
+    width: 75%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.suit_bottom button {
+    height: 0.5rem;
+    width: 2rem;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    border: 1px solid #67A8E2;
+    background: #67A8E2;
+    font-size: 0.2rem;
+    letter-spacing: 0.02rem;
+}

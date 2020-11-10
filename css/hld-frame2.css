@@ -1,0 +1,58 @@
+.rotation-chart {
+    padding: 0.2rem 1.5rem 0.6rem;
+}
+.rotation-chart {
+    padding: 0.2rem 1.5rem 1.3rem;
+    width: 92%;
+    margin: 0 auto;
+}
+.item {
+    padding: 0.9rem 0.3rem 0.7rem 1%;
+}
+
+@media screen and (min-width: 320px) {
+
+    .img {
+        line-height: 6.5rem;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .img {
+        line-height: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .carousel-indicators li {
+        margin: 0 0.3rem !important;
+    }
+
+    .carousel-indicators .active {
+        margin: 0 0.3rem !important;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .img {
+        line-height: 3.5rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .img {
+        line-height: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .img {
+        line-height: 3.7rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .img {
+        line-height: 1.4rem;
+    }
+}

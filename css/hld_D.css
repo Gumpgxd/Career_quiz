@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .head_login .login_bu1 {
+        width: 2rem!important;
+        height: 0.7rem!important;
+        line-height: 0.7rem!important;
+        font-size: 0.4rem!important;
+        letter-spacing: 0.1rem!important;
+    }
+    .head_login .return_bu2 {
+        width: 2rem!important;
+        height: 0.7rem!important;
+        line-height: 0.7rem!important;
+        font-size: 0.4rem!important;
+        letter-spacing: 0.1rem!important;
+    }
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    padding-bottom: 0.4rem;
+}
+
+.head_img {
+    padding-top: 0.1rem;
+    padding-left: 0.4rem;
+    height: 0.9rem;
+}
+
+.head_img img {
+    max-height: 100%;
+}
+
+.head_login {
+    padding-top: 0.2rem;
+    padding-right: 0.3rem;
+    text-align: right;
+}
+
+.head_login .login_bu1 {
+    width: 1.5rem;
+    height: 0.6rem;
+    color: #Ffffff;
+    background: #86B4EE;
+    outline: none;
+    border: 1px solid #86B4EE;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    font-size: 0.23rem;
+    border-radius: 0.1rem;
+}
+
+.head_login .return_bu2 {
+    width: 1.5rem;
+    height: 0.6rem;
+    color: #Ffffff;
+    background-color: #c0d8f6;
+    outline: none;
+    border: 1px solid #c0d8f6;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    font-size: 0.23rem;
+    border-radius: 0.1rem;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .fiv_table {
+        width: 100% !important;
+    }
+    .test-main {
+        width: 95% !important;
+    }
+    .next-button button,.last-button button {
+        width: 2rem;
+        height: 0.7rem;
+        border-radius: 0.2rem;
+    }
+}
+
+.test-middle {
+    padding: 0.5rem 0 0.4rem;
+}
+
+.fiv_table {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.fiv_table tr {
+    height: 0.65rem;
+    border: 0.04rem solid #dfdfdf;
+}
+
+.fiv_table tr td {
+    font-size: 0.2rem;
+    font-weight: 500;
+    width: 9%;
+    text-align: center;
+}
+
+.ability {
+    width: 28% !important;
+}
+
+.one {
+    background: #F2F5F9;
+}

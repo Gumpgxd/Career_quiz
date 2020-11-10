@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/bass.css">
-    <link rel="stylesheet" href="../css/land.css">
+    <link rel="stylesheet" href="../css/logon.css">
     <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
@@ -23,12 +23,9 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="left col-lg-6 col-sm-6 col-xs-12">
-                <img src="../images/login-left.png">
-            </div>
             <div class="right col-lg-6 col-sm-6 col-xs-12">
                 <div class="right_login">
-                    <h1>LOGIN</h1>
+                    <h1>REGISTER</h1>
                     <form>
                         <table>
                             <tr class="nav1">
@@ -38,13 +35,11 @@
                                 <td class="id_input">
                                     <input type="text" name="id" value="请输入您的手机号">
                                 </td>
-                                <td class="yes">
-                                    <img src="../images/yes.icon.png">
-                                </td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td></td>
-                                <td class="point" colspan="2"><p>用户名不能为空！</p></td>
+                                <td class="point" colspan="2"><p>请输入正确的手机号</p></td>
                             </tr>
                             <tr class="nav1">
                                 <td class="id_num">
@@ -59,26 +54,30 @@
                                 <td></td>
                                 <td class="point1" colspan="2"><p>密码不能为空！</p></td>
                             </tr>
+                            <tr class="nav1">
+                                <td class="id_num">
+                                    <img src="../images/psw-icon.png">
+                                </td>
+                                <td class="id_input">
+                                    <input type="password" name="key">
+                                </td>
+                                <td></td>
+                            </tr>
                         </table>
                     </form>
                     <div class="input_bottom clearfix">
-                        <div class="bottom_left col-sm-5 col-xs-5">
-                            <img src="../images/dg.icon.png">
-                            <span>记住我</span>
-                        </div>
-                        <div class="bottom_right col-sm-7 col-xs-7">
-                            <span><a href="#">忘记密码？</a></span>
-                            <span><a href="#">找回密码</a></span>
-                        </div>
                     </div>
                     <div class="bottom_button">
-                        <button class="button">登录</button>
+                        <button>登录</button>
                     </div>
                     <div class="logon">
-                        <span class="not_lo">暂无账号？</span>
-                        <span><a href="#">点击注册</a></span>
+                        <span class="not_lo">已有账号？</span>
+                        <span><a href="#">点击登录</a></span>
                     </div>
                 </div>
+            </div>
+            <div class="left col-lg-6 col-sm-6 col-xs-12">
+                <img src="../images/rigister.png">
             </div>
         </div>
     </div>

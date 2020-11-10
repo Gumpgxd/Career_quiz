@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/background.png");
+}
+
+@media screen and (max-width: 768px) {
+    td:nth-child(even) input {
+        margin-top: 0.4rem!important;
+        height: 1rem!important;
+        font-size: 0.4rem!important;
+        border-radius: 0.3rem!important;
+    }
+    td:nth-child(even) select {
+        margin-top: 0.4rem!important;
+        height: 1rem!important;
+        font-size: 0.4rem!important;
+        border-radius: 0.3rem!important;
+    }
+    td:nth-child(odd) p {
+        font-size: 0.45rem!important;
+    }
+
+    .fill {
+        margin-top: 2rem!important;
+        margin-bottom: 3rem!important;
+    }
+    .fill h2 {
+        font-size: 0.6rem!important;
+        font-weight: 600!important;
+    }
+    .button_bu button {
+        width: 3rem!important;
+        font-size: 0.35rem!important;
+        height: 0.9rem!important;
+    }
+    .button_bu {
+        padding: 0.5rem 0 0.35rem!important;
+    }
+    .head_login .login_bu1 {
+        width: 2rem!important;
+        height: 0.7rem!important;
+        line-height: 0.7rem!important;
+        font-size: 0.4rem!important;
+        letter-spacing: 0.1rem!important;
+    }
+    .head_login .return_bu2 {
+        width: 2rem!important;
+        height: 0.7rem!important;
+        line-height: 0.7rem!important;
+        font-size: 0.4rem!important;
+        letter-spacing: 0.1rem!important;
+    }
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    padding-bottom: 0.4rem;
+}
+
+.head_img {
+    padding-top: 0.1rem;
+    padding-left: 0.4rem;
+    height: 0.9rem;
+}
+
+.head_img img {
+    max-height: 100%;
+}
+
+.head_login {
+    padding-top: 0.2rem;
+    padding-right: 0.3rem;
+    text-align: right;
+}
+
+.head_login .login_bu1 {
+    width: 1.5rem;
+    height: 0.6rem;
+    color: #Ffffff;
+    background: #86B4EE;
+    outline: none;
+    border: 1px solid #86B4EE;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    font-size: 0.23rem;
+    border-radius: 0.1rem;
+}
+
+.head_login .return_bu2 {
+    width: 1.5rem;
+    height: 0.6rem;
+    color: #Ffffff;
+    background-color: #c0d8f6;
+    outline: none;
+    border: 1px solid #c0d8f6;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    font-size: 0.23rem;
+    border-radius: 0.1rem;
+    display: none;
+}
+
+.click {
+    width: 1.3rem;
+    background-color: #c0d8f6;
+}
+
+.fill {
+    opacity: 0.46;
+    background: #cde4f8;
+    margin: 0 auto;
+    padding: 0.25rem 0;
+    border-radius: 0.3rem;
+}
+
+.fill h2 {
+    text-align: center;
+    font-size: 0.43rem;
+    letter-spacing: 0.07rem;
+    color: #2366d9;
+}
+
+table {
+    width: 100%;
+    margin: 0.1rem auto 0.2rem;
+}
+
+td:nth-child(even) {
+    width: 60%;
+}
+
+td:nth-child(odd) {
+    width: 40%;
+    text-align: center;
+}
+
+td:nth-child(odd) p {
+    font-size: 0.22rem;
+    font-weight: 600;
+    letter-spacing: 0.03rem;
+    color: #2366d9;
+    margin: 0;
+    padding: 0;
+}
+
+td:nth-child(even) input {
+    width: 80%;
+    height: 0.45rem;
+    border-radius: 0.08rem;
+    padding-left: 0.1rem;
+    margin-top: 0.2rem;
+    outline: none;
+    border: 1px solid #CFCFCF;
+    background: #ffffff;
+    font-size: 0.2rem;
+}
+
+td:nth-child(even) select {
+    width: 80%;
+    height: 0.45rem;
+    margin-top: 0.2rem;
+    border-radius: 0.08rem;
+    padding-left: 0.1rem;
+    outline: none;
+    border: 1px solid #CFCFCF;
+    background: #ffffff;
+    font-size: 0.2rem;
+}
+
+.button_bu {
+    padding: 0.3rem 0 0.2rem;
+    text-align: center;
+}
+
+.button_bu button {
+    width: 2.5rem;
+    height: 0.5rem;
+    font-size: 0.26rem;
+    letter-spacing: 0.1rem;
+    border-radius: 0.2rem;
+    border: 1px solid #2366d9;
+    background: #2366d9;
+    color: #ffffff;
+}

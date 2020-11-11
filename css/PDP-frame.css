@@ -1,0 +1,108 @@
+@media screen and (min-width: 320px) {
+    .img {
+        line-height: 6.5rem;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .img {
+        line-height: 5.6rem;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .img {
+        line-height: 3.5rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .img {
+        line-height: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .img {
+        line-height: 4.7rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .img {
+        line-height: 5rem;
+    }
+}
+.ah-tab-item {
+    font-size: 0.4rem !important;
+    text-decoration: none !important;
+}
+
+
+/* table */
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 0.24rem;
+    opacity: 0.9;
+    background: #ffffff;
+    margin: 0 auto !important;
+}
+
+thead tr {
+    height: 0.7rem;
+    background-color: #F2F5F9;
+}
+
+tbody tr {
+    height: 0.6rem;
+}
+
+tbody td {
+    border: 1px solid #dfdfdf;
+    font-size: 0.22rem;
+}
+
+thead tr td:nth-child(1) {
+    width: 10rem;
+}
+
+thead tr td:nth-child(2),
+thead tr td:nth-child(3),
+thead tr td:nth-child(4),
+thead tr td:nth-child(5),
+thead tr td:nth-child(6) {
+    width: 1.3rem;
+}
+
+table img {
+    width: 0.22rem;
+}
+
+.last-p {
+    margin: 0.4rem 0 0.3rem 0;
+}
+
+
+/* 按钮 */
+
+.Radio {
+    width: 0.2rem;
+    height: 0.2rem;
+    border: 1.5px solid #8A8A8A;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.current {
+    outline: none;
+}
+
+.part1 {
+    padding: 1.2rem 1rem 2.5rem 1.5rem !important;
+
+}

@@ -138,11 +138,13 @@ form table {
 }
 
 .point p {
-    display: none;
+    /*display: none;*/
+    height: 0.35rem;
 }
 
 .point1 p {
-    display: none;
+    /*display: none;*/
+    height: 0.35rem;
 }
 
 .point1 {

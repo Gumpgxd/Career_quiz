@@ -145,11 +145,13 @@ p {
 }
 
 .point p {
-    display: none;
+    height: 0.35rem;
+    line-height: 0.4rem;
 }
 
 .point1 p {
-    display: none;
+    height: 0.35rem;
+    line-height: 0.4rem;
 }
 
 .point1 {

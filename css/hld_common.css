@@ -112,12 +112,16 @@ header {
 
 tr td {
     width: 50%;
+    padding: 0.2rem;
 }
 
 table {
     margin: 0.3rem 0;
 }
-
+#table_one,#table_通往{
+    /*margin-top: 0;*/
+    margin-bottom: 0;
+}
 tr td:nth-child(odd) {
     text-align: center;
 }
@@ -127,6 +131,7 @@ tr td input {
     height: 0.4rem;
     background: #ffffff!important;
     border: 0px solid #ffffff;
+    outline: none;
 }
 
 td h4 {
@@ -143,7 +148,8 @@ tr p {
     color: #334F8C;
     padding-right: 0.3rem;
     /*display: none;*/
-    opacity: 0;
+    /*opacity: 0;*/
+    height: 0.1rem;
 }
 
 .h {

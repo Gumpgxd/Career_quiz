@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-weight: 800;
+}
+
+.dzhx {
+  display: flex;
+  flex-direction: row;
+}
+.PDP-result {
+  margin-bottom: 0.3rem;
+}
+.grade {
+  box-shadow: 0px 4px 8px 0px rgba(207,207,207,0.36); 
+  /* width: 15rem;
+  height: 4rem; */
+  margin: -0.5rem auto;
+  border: 1px solid #F2F5F9;
+  border-radius: 6px;
+  background-color: rgb(255,255, 255, 0.8);
+  padding-bottom: 0.6rem;
+}
+.grade h3,p {
+  color: #797A7B;
+}
+.grade h3{
+  padding: 0.5rem 1rem 0.2rem 1rem;
+}
+.grade p {
+  font-size: 0.2rem;
+  padding: 0.1rem 1rem;
+
+}
+.grade .grade-end {
+  font-size: 0.2rem;
+  padding: 0rem 1rem;
+}
+/* 结果分end */
+/* 中间表格 */
+table {
+  margin:0.15rem auto;
+  border: 1px solid #797A7B;
+}
+table .type-one {
+  width: 2rem;
+  height: 0.7rem;
+}
+table .type-two {
+  width: 7rem;
+}
+table .type-three {
+  width: 2.7rem;
+}
+.rotation-chart .grade-two {
+  margin: -4.3rem auto;
+}
+/* 表格结束 */
+/* 结果显示 */
+/* .grade-three {
+  display: flex;
+} */
+.grade-three {
+  box-shadow: 0px 4px 8px 0px rgba(207,207,207,0.36); 
+  /* width: 15rem; */
+  /* height: 16rem; */
+  font-size: 0.2rem;
+  opacity: 0.9;
+  border: 4px solid #f2f5f9;
+  margin: 5rem auto 0rem;
+  border: 1px solid #F2F5F9;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+.img>p {
+  float: left;
+}
+.grade-three .results{
+  padding: 0.1rem 0;
+  margin: 0.5rem auto;
+  /* width: 13rem;
+  height: 2.8rem; */
+  box-sizing: border-box;
+  display: flex;
+    justify-content: center;
+  /* border: 1px solid red; */
+}
+/* .grade-three .results-left{
+  width: 5rem;
+  height: 2.5rem; */
+  /* border: 1px solid red; */
+/* } */
+.results-left {
+  width: 2.5rem;
+  height: 2.5rem;
+  /* margin: 0 1rem 0 1rem; */
+}
+.content {
+  margin: 0;
+}
+.results-left img {
+  width: 100%;
+  height: 100%;
+}
+/* .grade-three .results-left img{
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0 0 0 1rem; */
+  /* border: 1px solid red; */
+/* } */
+
+/* 结果显示图片end */
+/* 右边文字 */
+/* .results-right, .results-left, .results-right{
+  float: left;
+} */
+.grade-three>.results>.results-right>.results-right-content {
+ font-style: normal;
+ text-align: left;
+ font-size: 0.2rem;
+  /* width: 7rem;
+  height: 2.5rem; */
+  line-height: 0.43rem;
+  /* border: 1px solid red; */
+}
+/* 文字end */
+/* 分割线 */
+
+.order {
+  clear: both;
+  height: 0.1rem;
+  line-height: 0.1rem;
+  text-align: center;
+}
+.order .line {
+  display: inline-block;
+  width: 27%;
+  border-top: 1px solid #CFCFCF;
+}
+.order .txt {
+  color: #797A7B;
+  vertical-align: middle;
+}
+/* 分割线over */
+/* 返回按钮 */
+.test-buttom {
+  margin-top: 0.7rem;
+  width: 89%
+}
+.next-button button{
+  float: right;
+  width: 1.8rem;
+  height: 0.48rem;
+  background: #67a8e2;
+  border-radius: 0.046rem;
+  font-size: 0.23rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  line-height: 0.48rem;
+  border: none;
+}
+/* 结果显示 */
+.grade .count> h2 {
+  font-size: 0.2rem;
+  font-weight: 800;
+  color: #61666b;
+  padding: 0.1rem 1rem;
+
+}
+/* 登陆注销 */
+.head_login .login_bu1 {
+  width: 1.5rem;
+  height: 0.6rem;
+  color: #Ffffff;
+  background: #86B4EE;
+  outline: none;
+  border: 1px solid #86B4EE;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  font-size: 0.23rem;
+  border-radius: 0.1rem;
+}
+
+.head_login .return_bu2 {
+  width: 1.5rem;
+  height: 0.6rem;
+  color: #Ffffff;
+  background-color: #c0d8f6;
+  outline: none;
+  border: 1px solid #c0d8f6;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  font-size: 0.23rem;
+  border-radius: 0.1rem;
+  display: none;
+}
+
+
+@media (max-width: 540px) {
+  .next-button button {
+    width: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head_login .login_bu1 {
+  width: 2rem!important;
+  height: 0.7rem!important;
+  line-height: 0.7rem!important;
+  font-size: 0.4rem!important;
+  letter-spacing: 0.1rem!important;
+}
+.head_login .return_bu2 {
+  width: 2rem!important;
+  height: 0.7rem!important;
+  line-height: 0.7rem!important;
+  font-size: 0.4rem!important;
+  letter-spacing: 0.1rem!important;
+}
+}

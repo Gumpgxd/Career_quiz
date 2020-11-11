@@ -2,11 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d8af6ab-bee7-4e9e-8120-eecf12e10c83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/PDP-frame.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/PDP-result.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/jquery.horizontalmenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/qizhi.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/qizhijieguo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/PDP-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/PDP-result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/PDP-test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/hld-frame1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/hld-frame2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/qz-result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/qz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pdp-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/PDP-result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/PDP-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.horizontalmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/qz-result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/qz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Career_quiz.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/HomePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bass.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bass.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hld-frame1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hld-frame1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hld_E.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hld_E.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hld_common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hld_common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/input.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/land.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/land.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/HomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/HomePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/logon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/logon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hld_A.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_A.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hld_B.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_B.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hld_C.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_C.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hld_D.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_D.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hld_E.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_E.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hld_common.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_common.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/land.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/land.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/logon.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/logon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/张飞.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/zhangfei.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hld_common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hld_common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/land.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/land.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +82,8 @@
       <workItem from="1604751653534" duration="25746000" />
       <workItem from="1604881832088" duration="34717000" />
       <workItem from="1604928751049" duration="331000" />
-      <workItem from="1604930575883" duration="19740000" />
+      <workItem from="1604930575883" duration="20342000" />
+      <workItem from="1604993070866" duration="15449000" />
     </task>
     <servers />
   </component>
@@ -51,9 +95,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604803921419" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604976415963">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1605016862414">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604976415963" />
+    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016862414" />
   </component>
 </project>

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .part1 {
+  padding: 0.8rem 1rem 2.5rem 1.5rem !important;
+} */
+
+td input{
+  width: 0.2rem;
+  height: 0.2rem;
+  cursor: pointer;
+}
+
+table {
+  margin:auto;
+  border: 3px solid #DFDFDF;
+  font-size: 0.2rem;
+}
+.line {
+  background-color: #F2F5F9;
+}
+table tr td {
+  border: 1px solid #DFDFDF;
+  text-align: center;
+  color: #797A7B;
+}
+
+table .topic {
+  width: 44rem;
+  height: 0.5rem;
+  text-align: center;
+  color: #797A7B;
+}
+.middle .topic-content{
+  text-align: left;
+  padding: 0 0.2rem;
+}
+.yes-one, .yes-two, .yes-three, .no-one, .no-two{
+  width: 8rem;
+  height: 0.5rem;
+  text-align: center;
+  color: #797A7B;
+}
+
+.danxuan {
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+  border: 1px solid #8a8a8a;
+  outline: none;
+}
+
+.yes-or-no>p {
+  font-style: normal;
+}
+

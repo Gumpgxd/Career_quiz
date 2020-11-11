@@ -1,5 +1,12 @@
 /* 媒体查询定义rem  */
+
 @media screen and (min-width: 320px) {
+    html {
+        font-size: 31.33px;
+    }
+}
+
+@media screen and (max-width: 320px) {
     html {
         font-size: 31.33px;
     }
@@ -46,8 +53,76 @@
         font-size: 80px;
     }
 }
+
 @media screen and (min-width: 1300px) {
     html {
         font-size: 86.7px;
     }
 }
+
+/* 登陆注销 */    @media screen and (max-width: 768px) {
+  .head_login .login_bu1 {
+    width: 2rem!important;
+    height: 0.7rem!important;
+    line-height: 0.7rem!important;
+    font-size: 0.4rem!important;
+    letter-spacing: 0.1rem!important;
+}
+.head_login .return_bu2 {
+    width: 2rem!important;
+    height: 0.7rem!important;
+    line-height: 0.7rem!important;
+    font-size: 0.4rem!important;
+    letter-spacing: 0.1rem!important;
+}
+}
+
+.container {
+width: 100%;
+}
+
+header {
+padding-bottom: 0.4rem;
+}
+
+.head_img {
+padding-top: 0.1rem;
+padding-left: 0.4rem;
+height: 0.9rem;
+}
+
+.head_img img {
+max-height: 100%;
+}
+
+.head_login {
+padding-top: 0.2rem;
+padding-right: 0.3rem;
+text-align: right;
+}
+
+.head_login .login_bu1 {
+width: 1.5rem;
+height: 0.6rem;
+color: #Ffffff;
+background: #86B4EE;
+outline: none;
+border: 1px solid #86B4EE;
+letter-spacing: 0.05rem;
+text-align: center;
+font-size: 0.23rem;
+border-radius: 0.1rem;
+}
+
+.head_login .return_bu2 {
+width: 1.5rem;
+height: 0.6rem;
+color: #Ffffff;
+background-color: #c0d8f6;
+outline: none;
+border: 1px solid #c0d8f6;
+letter-spacing: 0.05rem;
+text-align: center;
+font-size: 0.23rem;
+border-radius: 0.1rem;
+display: none;

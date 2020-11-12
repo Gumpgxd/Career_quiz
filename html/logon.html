@@ -26,14 +26,14 @@
             <div class="right col-lg-6 col-sm-6 col-xs-12">
                 <div class="right_login">
                     <h1>REGISTER</h1>
-                    <form>
+                    <form id="la_name">
                         <table>
                             <tr class="nav1">
                                 <td class="id_num">
                                     <img src="../images/id.icon.png">
                                 </td>
                                 <td class="id_input">
-                                    <input type="text" name="id" placeholder="请输入您的手机号">
+                                    <input type="text" name="id" id="phone" placeholder="请输入您的手机号">
                                 </td>
                                 <td></td>
                             </tr>
@@ -46,7 +46,7 @@
                                     <img src="../images/psw-icon.png">
                                 </td>
                                 <td class="id_input">
-                                    <input type="password" name="key">
+                                    <input id="password" type="password" name="key">
                                 </td>
                                 <td></td>
                             </tr>
@@ -68,7 +68,7 @@
                     <div class="input_bottom clearfix">
                     </div>
                     <div class="bottom_button">
-                        <button>注册</button>
+                        <button id="btn">注册</button>
                     </div>
                     <div class="logon">
                         <span class="not_lo">已有账号？</span>
@@ -89,5 +89,5 @@
 </footer>
 </body>
 <script src="../js/jquery-1.12.3(1).js"></script>
-<script src="../js/land.js"></script>
+<script src="../js/logon.js"></script>
 </html>

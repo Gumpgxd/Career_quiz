@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/bcg.png");
+}
+
+@media screen and (max-width: 768px) {
+    .head_login .login_bu1 {
+        width: 2rem!important;
+        height: 0.7rem!important;
+        line-height: 0.7rem!important;
+        font-size: 0.4rem!important;
+        letter-spacing: 0.1rem!important;
+    }
+    .head_login .return_bu2 {
+        width: 2rem!important;
+        height: 0.7rem!important;
+        line-height: 0.7rem!important;
+        font-size: 0.4rem!important;
+        letter-spacing: 0.1rem!important;
+    }
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    padding-bottom: 0.4rem;
+}
+
+.head_img {
+    padding-top: 0.1rem;
+    padding-left: 0.4rem;
+    height: 0.9rem;
+}
+
+.head_img img {
+    max-height: 100%;
+}
+
+.head_login {
+    padding-top: 0.2rem;
+    padding-right: 0.3rem;
+    text-align: right;
+}
+
+.head_login .return_but {
+    width: 1.6rem;
+    height: 0.6rem;
+    color: #Ffffff;
+    background-color: #aac9f1;
+    outline: none;
+    border: 1px solid #c0d8f6;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    font-size: 0.23rem;
+    border-radius: 0.1rem;
+}
+
+.test_home {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.test_br {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.3rem 0.5rem;
+    background: #ffffff;
+    border-radius: 0.3rem;
+    opacity: 0.8;
+}
+
+.test_br p {
+    color: #5485D9;
+    line-height: 0.35rem;
+    font-size: 0.22rem;
+}
+
+.test_img {
+    width: 87%;
+    margin: 0 auto;
+}
+
+.test_list div {
+    border-radius: 0.3rem!important;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.test_list h5 {
+    color: #5485D9;
+    text-align: center;
+    padding: 0 0 0.1rem;
+    font-size: 0.25rem;
+}
+
+.test_list img{
+    text-align: center;
+    max-width: 80%;
+    border-radius: 0.3rem;
+}
+
+.test_list p {
+    text-align: center;
+    color: #5485D9;
+    font-size: 0.24rem;
+    padding: 0.1rem 0;
+}
+
+.font_p {
+    margin: 0 auto;
+    padding: 0.1rem 0 0.1rem;
+}
+
+.font_p p {
+    margin: 0.1rem 0;
+    color: #9c9999;
+    font-size: 0.2rem;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.02rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+
+

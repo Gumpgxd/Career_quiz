@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d8af6ab-bee7-4e9e-8120-eecf12e10c83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/html/hld_A.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_A.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/hld_B.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_B.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/hld_C.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_C.html" afterDir="false" />
@@ -12,6 +13,11 @@
       <change beforePath="$PROJECT_DIR$/js/hld_B.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hld_B.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/hld_C.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hld_C.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/hld_D.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hld_D.js" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/html/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/logon.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/logon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/logon.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/logon.js" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +27,7 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -28,6 +35,7 @@
       </list>
     </option>
   </component>
+
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -46,7 +54,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,8 +73,11 @@
       <workItem from="1604928751049" duration="331000" />
       <workItem from="1604930575883" duration="20342000" />
       <workItem from="1604993070866" duration="15449000" />
+
       <workItem from="1605054829830" duration="26700000" />
       <workItem from="1605174778598" duration="283000" />
+      <workItem from="1605058891943" duration="4072000" />
+
     </task>
     <servers />
   </component>

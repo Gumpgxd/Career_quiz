@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -35,16 +36,16 @@
             <table>
                 <tr>
                     <td><p>年龄</p></td>
-                    <td><input type="text"></td>
+                    <td><input type="text" id="age"></td>
                 </tr>
                 <tr>
                     <td><p>姓名</p></td>
-                    <td><input type="text"></td>
+                    <td><input type="text" id="name"></td>
                 </tr>
                 <tr>
                     <td><p>性别</p></td>
                     <td>
-                        <select>
+                        <select id="gender">
                             <option></option>
                             <option>男</option>
                             <option>女</option>
@@ -53,12 +54,12 @@
                 </tr>
                 <tr>
                     <td><p>QQ</p></td>
-                    <td><input type="text"></td>
+                    <td><input type="text" id="qq"></td>
                 </tr>
                 <tr>
                     <td><p>学历</p></td>
                     <td>
-                        <select>
+                        <select id="education">
                             <option></option>
                             <option>小学</option>
                             <option>初中</option>
@@ -72,16 +73,16 @@
                 </tr>
                 <tr>
                     <td><p>退役方式</p></td>
-                    <td><input type="text"></td>
+                    <td><input type="text" id="retiremode"></td>
                 </tr>
                 <tr>
                     <td><p>退役时间</p></td>
-                    <td><input type="text"></td>
+                    <td><input type="text" id="retiretime"></td>
                 </tr>
                 <tr>
                     <td><p>从事工作</p></td>
                     <td>
-                        <select>
+                        <select id="work">
                             <option></option>
                             <option>自主就业</option>
                             <option>计划安置</option>
@@ -93,9 +94,11 @@
             </table>
         </form>
         <div class="button_bu">
-            <button>进入测试</button>
+            <button id="btn">进入测试</button>
         </div>
     </div>
 </section>
 </body>
+<script src="../js/jquery-1.12.3(1).js"></script>
+<script src="../js/input.js"></script>
 </html>

@@ -25,14 +25,19 @@ $(function (){
         $("#table_four span").text(index4);
         $("#table_five span").text(index5);
         $("#table_six span").text(index6);
+        console.log($("input[name = 'ty1']:checked"))
         index = index1 + index2 + index3 + index4 + index5 + index6;
+        $(".next-button button").click(function () {
+                console.log(index6)
+                if (index === undefined){
+                    zeroModal.alert('您还有题目未作答！请完成\n' +
+                        '后再进一步测试');
+                }else{
+                    // window.location.href="../html/hld_B.html"
+                    window.location.href = "../html/hld_B.html?" + "&" + index1 + "&" + index2 + "&" + index3 + "&" + index4 + "&" + index5 + "&" + index6;
+                }
+            })
     })
-    $(".next-button button").click(function () {
-        if (index === undefined){
-            zeroModal.alert('您还有题目未作答！请完成\n' +
-                '后再进一步测试');
-        }else{
-            window.location.href="../html/hld_B.html"
-        }
-    })
+
+
 })

@@ -3,9 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="7d8af6ab-bee7-4e9e-8120-eecf12e10c83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/html/hld_A.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_A.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hld_B.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_B.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hld_C.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_C.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hld_D.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_D.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hld_E.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hld_E.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hld_A.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hld_A.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hld_B.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hld_B.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hld_C.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hld_C.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hld_D.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hld_D.js" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/html/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/logon.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/logon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/logon.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/logon.js" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +27,15 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -33,6 +54,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -49,7 +73,11 @@
       <workItem from="1604928751049" duration="331000" />
       <workItem from="1604930575883" duration="20342000" />
       <workItem from="1604993070866" duration="15449000" />
+
+      <workItem from="1605054829830" duration="26700000" />
+      <workItem from="1605174778598" duration="283000" />
       <workItem from="1605058891943" duration="4072000" />
+
     </task>
     <servers />
   </component>
@@ -57,6 +85,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605078238394">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.12.1920.1040@0.0.1280.680" timestamp="1605078238394" />
+    <state x="-1554" y="110" key="SettingsEditor" timestamp="1605084072457">
+      <screen x="-1920" y="12" width="1920" height="1040" />
+    </state>
+    <state x="-1554" y="110" key="SettingsEditor/0.0.1280.680/-1920.12.1920.1040@-1920.12.1920.1040" timestamp="1605084072457" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1604803921419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

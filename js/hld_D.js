@@ -1,3 +1,5 @@
+var SERVER_PATH = 'http://127.0.0.1:8000/'
+
 $(function (){
     var all_mark;//所有总分，判断是否填完表单
 
@@ -21,6 +23,15 @@ $(function (){
     var h_S;//交际技能
     var h_E;//领导技能
     var h_C;//办公技能
+
+    var url = window.location.href.split("&");
+
+    var all1;
+    var all2;
+    var all3;
+    var all4;
+    var all5;
+    var all6;
     $(".next-button button").click(function (){
         g_R = $("input[name = 'mechanic']:checked").val();
         g_I = $("input[name = 'science']:checked").val();
@@ -41,7 +52,16 @@ $(function (){
         mark_E = Number(g_E )+Number(h_E);
         mark_C = Number(g_C )+Number(h_C);
         all_mark = mark_R + mark_I + mark_A + mark_S + mark_E + mark_C;
+
         // return all_mark;
+        console.log(url)
+        all1 = Number(url[1]) + Number(mark_R);
+        all2 = Number(url[2]) + Number(mark_I);
+        all3 = Number(url[3]) + Number(mark_A);
+        all4 = Number(url[4]) + Number(mark_S);
+        all5 = Number(url[5]) + Number(mark_E);
+        all6 = Number(url[6]) + Number(mark_S);//所有总分
+
     })
 
     $('.next-button button').click(function (){
@@ -54,6 +74,41 @@ $(function (){
                 content: '您确定要提交吗 ？',
                 okFn: function() {
                     window.location.href="../html/hld_E.html";
+                    $.ajax({
+                        url: SERVER_PATH + "api/test/addholland",
+                        type: 'post',
+                        dataType: 'json',
+                        data: {
+                            token:"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8" +
+                                "xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYwNTA5MTY3M" +
+                                "CwiZXhwIjoxNjA1MDk1MjcwLCJuYmYiOjE2MDUwOTE2NzAsImp0aSI6IlAweXpJV3ZWeElV" +
+                                "ajVmY08iLCJzdWIiOjEwLCJwcnYiOiJkZjg4M2RiOTdiZDA1ZW" +
+                                "Y4ZmY4NTA4MmQ2ODZjNDVlODMyZTU5" +
+                                "M2E5In0.B5lz1EIqxPygX9kT1ovRFoToALLsL1Iwz4_zkPC4m18",
+                            R:all1,
+                            A:all2,
+                            I:all3,
+                            S:all4,
+                            E:all5,
+                            C:all6
+                        },
+                        success: function (data) {
+                            if (data.code === 200) {
+                                console.log(data);
+                            } else if (data.code === 100) {
+                                console.log(data);
+                            }else if (data.code === 422) {
+                                alert(422)
+                                console.log(data.data);
+                            }
+                        },
+                        error: function (data) {
+                            console.log('失败');
+                            console.log(data.code + 'code');
+                        }
+                    })
+
+
                 }
             });
         }
